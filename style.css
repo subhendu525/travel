@@ -229,11 +229,7 @@
 	}
 	.container2 .box .content{
 		margin-left: 0px;
-	}
-	#m_text{
-		flex-direction:column;
-		max-width:350px;
-	}
+        }
 	
 }
 
