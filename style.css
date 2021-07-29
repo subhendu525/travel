@@ -123,8 +123,8 @@
 #m_text{
 	position:absolute;
 	width:100%;
-	margin:0;
-	top:20%;
+	margin:0 auto;
+	top:100px;
 	left:0;
 	padding:30px;
 	font-size:3vw;
