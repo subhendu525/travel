@@ -180,7 +180,7 @@
 }
 .container2 .box{
 	position: relative;
-	max-width: 1000px;
+	max-width: 450px;
 	background: #70b3e9;
 	margin: 10px;
 	padding: 15px;
@@ -201,12 +201,10 @@
 	max-width: 100%;
 }
 .container2 .box .content{
-	margin-left: 120px;
+	margin-left: 20px;
 	color: #fff;
-	font-size: 18px;
 }
 .container2 .box .content h1{
-	margin-bottom: 10px;
 	text-decoration: overline;
 }
 .container2 .box .content .p1{
