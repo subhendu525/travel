@@ -77,6 +77,8 @@
 .slider{
 	overflow:hidden;
 	height: 98vh;
+	width:100%;
+	height:100%;
 }
 .slider figure{
 	position:relative;
@@ -121,8 +123,8 @@
 #m_text{
 	position:absolute;
 	width:100%;
-	margin:0px;
-	top:10%;
+	margin:0;
+	top:0;
 	left:0;
 	padding:30px;
 	font-size:3vw;
@@ -136,6 +138,7 @@
 	position:absolute;
 	margin:0;
 	top:30%;
+	height:100%;
 	width:60%;
 	font-size:2vw;
 	padding:30px;
@@ -174,10 +177,7 @@
 	align-items: center;
 	flex-wrap: wrap;
 }
-.container2 .heading{
-	color:rgb(10, 33, 133);
-	margin: 20px 0 50px 320px;
-}
+
 .container2 .box{
 	position: relative;
 	max-width: 450px;
@@ -185,7 +185,7 @@
 	margin: 10px;
 	padding: 15px;
 	display: flex;
-	opacity: .6;
+	opacity: .7;
 	border-radius: 5px;
 	box-shadow: 3px 3px 10px blue;
 	transition: .3s;
@@ -219,6 +219,7 @@
 	.container2{
 		flex-direction: column;
 	}
+	}
 	.container2 .box{
 		flex-direction: column;
 		max-width: 350px;
@@ -228,6 +229,14 @@
 	}
 	.container2 .box .content{
 		margin-left: 0px;
+	}
+	#m_text{
+		flex-direction:column;
+		max-width:350px;
+	}
+	.sub_text{
+		flex-direction:column;
+		max-width:350px;
 	}
 }
 
