@@ -168,7 +168,6 @@
 .container2{
 	position: relative;
 	background: #fff;
-	top: -120px;
 	width: 1000px;
 	display: flex;
 	justify-content: space-between;
@@ -195,11 +194,11 @@
 	opacity: 1;
 }
 .container2 .box .imgbx{
-	max-width: 200px;
-	flex: 0 0 200px;
+	max-width: 150px;
+	flex: 0 0 150px;
 }
 .container2 .box .imgbx img{
-	max-width: 150%;
+	max-width: 100%;
 }
 .container2 .box .content{
 	margin-left: 120px;
